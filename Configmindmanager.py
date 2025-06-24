@@ -8,14 +8,11 @@ while True:
     print(img)
     while True:
       try:
-        img = pyautogui.locateOnScreen('activamap.JPG', confidence=0.8, grayscale = True)
+        img = pyautogui.locateOnScreen('dialogoalinicio.JPG', confidence=0.8, grayscale = True)
         print('Found it!')
         print(img)
-        pyautogui.click(x=882, y=752, button= 'left')
+        pyautogui.click(x=1222, y=804, button= 'left')
         time.sleep(2)
-        pyautogui.write('840-8E3-95-BBCBE')
-        time.sleep(2)
-        pyautogui.press('enter')
         break
       except:
         pass
