@@ -3,7 +3,7 @@ import time
 
 while True:
   try:
-    img = pyautogui.locateOnScreen('activataskqNN.JPG', confidence=0.8, grayscale = True)
+    img = pyautogui.locateOnScreen('activataskqv2.JPG', confidence=0.8, grayscale = True)
     print('Found it!')
     print(img)
     pyautogui.click(x=882, y=752, button= 'left')
