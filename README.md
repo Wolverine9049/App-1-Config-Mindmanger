@@ -1,1 +1,1 @@
-# App-1-Config-Mindmanger
+# App-1-Config-Mindmanager
