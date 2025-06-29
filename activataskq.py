@@ -3,7 +3,7 @@ import time
 
 while True:
   try:
-    img = pyautogui.locateOnScreen('Herllo Github.JPG', confidence=0.8, grayscale = True)
+    img = pyautogui.locateOnScreen('Hello Github.JPG', confidence=0.8, grayscale = True)
     print('Found it!')
     print(img)
     pyautogui.click(x=882, y=752, button= 'left')
